@@ -1,4 +1,4 @@
-import { OrderType, createFormatArray, toDateRange } from "./index.js";
+import { createFormatArray, toDateRange } from "./index.js";
 
 export class QueryBuilder {
   query;
@@ -41,7 +41,7 @@ export class QueryBuilder {
       if (this._dimensionNames.has(name)) {
         return {
           dimension: {
-            orderType: type || OrderType.ORDER_TYPE_UNSPECIFIED,
+            orderType: type || "ORDER_TYPE_UNSPECIFIED",
             dimensionName: name,
           },
         };
