@@ -1,0 +1,17 @@
+{
+  "name": "ganalytics-meta-metrics",
+  "version": "0.0.1",
+  "description": "GAnalytics MetaMetrics",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "format": "prettier --write src/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "acidx",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alarm3d/ganalytics-meta-metrics.git"
+  }
+}
